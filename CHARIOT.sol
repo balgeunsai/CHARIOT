@@ -376,10 +376,10 @@ contract TokenSale is Ownable{
       _;
   }
 
-  uint256 discountStage1 = 90;
-  uint256 discountStage2 = 80;
-  uint256 discountStage3 = 70;
-  uint256 discountStage4 = 60;
+  uint256 discountStage1 = 60;
+  uint256 discountStage2 = 55;
+  uint256 discountStage3 = 50;
+  uint256 discountStage4 = 40;
 
   function setDiscountStage(
     uint256 _newDiscountStage1,
